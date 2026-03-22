@@ -56,7 +56,7 @@ def save_json(path: str, data: dict) -> None:
         json.dump(data, f, ensure_ascii=False, indent=2)
     
 if __name__ == "__main__":
-    input_path = "test_data.json"
+    input_path = "data/test_data.json"
     output_path = "data/test_predictions.json"
 
     data = load_json(input_path)
